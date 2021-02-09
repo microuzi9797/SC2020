@@ -10,10 +10,10 @@ function output=addAndMax(a, b)
         r = max(ra, rb);
         c = max(ca, cb);
         if ra < r
-            a = [a;zeros(r - ra, ca)];
+            a = [a; zeros(r - ra, ca)];
         end
         if rb < r
-            b = [b;zeros(r - rb, cb)];
+            b = [b; zeros(r - rb, cb)];
         end
         if ca < c
             a = [a, zeros(r, c - ca)];
