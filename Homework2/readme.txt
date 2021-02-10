@@ -1,4 +1,4 @@
-This is the readme.txt file in example code for HW02 of Scientific ComputingaddAndMax
+This is the readme.txt file in example code for HW02 of Scientific Computing circleFitByDss
 
 Your submission (you only need to submit one of the following):
 	Python: circleFitByDss.py
@@ -20,8 +20,8 @@ Input/output file format:
 Example main program to run the test:
 	Python: mainTest.py, with the following command to run it.
 		python mainTest.py < input.txt > output.python.txt
-	Matlab: mainText.m, with the following command (within matlab) to run it.
-		mainText input.txt output.matlab.txt
+	Matlab: mainTest.m, with the following command (within matlab) to run it.
+		mainTest input.txt output.matlab.txt
 
 Standard program for MATLAB
 	circleFitByDssSP.p is a standard program that can be invoked just like an M file in MATLAB to check against your submission of "circleFitByDss.m".
