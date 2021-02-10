@@ -1,4 +1,4 @@
-This is the readme.txt file in example code for HW01 of Scientific ComputingaddAndMax
+This is the readme.txt file in example code for HW01 of Scientific Computing addAndMax
 
 Your submission (you only need to submit one of the following):
 	Python: addAndMax.py
