@@ -11,7 +11,9 @@ if fidInput<0, error('Cannot open input file "%s"!', inputFile); end
 while ~feof(fidInput)
 	pv=str2num(fgetl(fidInput));
 	notePitch=str2num(fgetl(fidInput));
-	output{id}=myPvAlign(pv, notePitch);		% You can comment out this line (and uncomment the next line) to test ellipseFitSP.p
+	figure;
+	output{id}=myPvAlignSP(pv, notePitch, 2);
+	drawnow;
 	fprintf('id=%d, minDist=%f\n', id, output{id}); id=id+1;
 	fprintf('\tpv=%s, note=%s\n', mat2str(pv), mat2str(notePitch));
 end
